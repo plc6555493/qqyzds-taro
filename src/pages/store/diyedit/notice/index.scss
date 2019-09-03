@@ -1,0 +1,81 @@
+.index{
+  font-size: 26px;
+}
+
+.notice-pic{
+  padding: 10px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  width: 700px;
+  height: 170px;
+  //box-sizing: border-box;
+  .text-notice-pic{
+    margin-right: 10px;
+  }
+  .input-notice-pic{
+    width: 400px;
+    margin-right: 0;
+    border: 1px solid #ccc;
+  }
+  .button-notice-pic{
+    height: 1.4rem;
+    padding: 0 5px;
+    line-height: 1.4rem;
+    font-size: 26px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 0;
+  }
+  .preview-pic{
+    margin-left: 35px;
+    .pic-border{
+      margin-left: 30px;
+      width: 180px;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+  }
+
+}
+.radio-left{
+  margin-right: 50px;
+}
+.all-title{
+  margin-top: 50px;
+}
+.title{
+  position: relative;
+  width: 700px;
+  height: 80px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  Input{
+    width: 75%;
+    border: 1px solid #ccc;
+    //margin-left: 10px;
+  }
+  .close{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.3);
+  }
+}
+.notice-num{
+  width: 700px;
+  margin: 50px auto;
+  .notice-num-radioGroup{
+    width: 470px;
+  }
+}
+.addTitle{
+  margin-bottom: 100px;
+  background-color: #a0d911;
+  color: #fff;
+  border: 1px solid #aaa;
+  width: 500px;
+}

@@ -1,0 +1,20 @@
+.container {
+
+  .qrcode {
+    flex: 1;
+    .qrcode_item {
+      width: 50%;
+      height: 400px;
+      image {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 40px;
+      }
+
+      text {
+        font-size: 28px;
+        color: #333;
+      }
+    }
+  }
+}

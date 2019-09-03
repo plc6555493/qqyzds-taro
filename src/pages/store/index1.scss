@@ -1,0 +1,68 @@
+.container {
+  .info_container {
+    padding: 20rpx;
+
+    .info {
+      background: -webkit-linear-gradient(#ff4d4f, #f5222d); /* Safari 5.1 - 6.0 */
+      background: -o-linear-gradient(#ff4d4f, #f5222d); /* Opera 11.1 - 12.0 */
+      background: -moz-linear-gradient(#ff4d4f, #f5222d); /* Firefox 3.6 - 15 */
+      background: linear-gradient(#ff4d4f, #f5222d); /* 标准的语法（必须放在最后） */
+      border-radius: 10rpx;
+      overflow: hidden;
+
+      .endTime {
+        height: 40rpx;
+        padding: 0 40rpx;
+        background-color: rgba(0,0,0,0.3);
+        color: #fff;
+        border-radius: 10rpx;
+      }
+
+      .statistics {
+        padding: 0 20rpx;
+      }
+
+      .records {
+        padding: 20rpx 0;
+
+        .record_item {
+
+          .record_cell {
+            flex: 1;
+            margin: 20rpx 0;
+          }
+        }
+      }
+    }
+
+    .menus {
+      background-color: #ffffff;
+      border-radius: 10rpx;
+      overflow: hidden;
+      top:-10px;
+      position:relative;
+
+      .menu_item {
+        height: 180rpx;
+
+        .menu_cell {
+          flex: 1;
+
+          .icon {
+            width: 80rpx;
+            height: 80rpx;
+            border-radius: 80rpx;
+            border: 2rpx solid #f5222d;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+
+  .register {
+    width: 70%;
+  }
+}

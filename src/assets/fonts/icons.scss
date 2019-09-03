@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1218455 */
+  src: url('//at.alicdn.com/t/font_1218455_3gon0pzdhg2.eot');
+  src: url('//at.alicdn.com/t/font_1218455_3gon0pzdhg2.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1218455_3gon0pzdhg2.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1218455_3gon0pzdhg2.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1218455_3gon0pzdhg2.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1218455_3gon0pzdhg2.svg#iconfont') format('svg');
+}
+
+/* 根据第三方字体图标库编写 */
+/* 举例：fa 就是 prefixClass 的值，下面的的图标 css class 命名都要用 fa- 开头  */
+.iconfont {
+  //font-family:"iconfont" !important;
+  font-size: 16px;
+  display: inline-block;
+  /* 以下的 font 与上面 @font-face 的 font-family 要一致*/
+  font: normal normal normal 14px/1 iconfont;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 图标 */
+/*
+* .iconfont-addcart:before {
+*   content: "\e78b";
+* }
+**/
+.iconfont-shop:before {
+    content:"\e676";
+  }
+.iconfont-goods:before {
+  content:"\e6cd";
+}
+.iconfont-order-manage:before {
+  content:"\e649";
+}
+.iconfont-user-manage:before {
+  content:"\e78b";
+}
+.iconfont-data-statistics:before {
+  content:"\e61c";
+}
+.iconfont-customer-service:before {
+  content:"\e678";
+}
+.iconfont-scan:before {
+  content:"\e600";
+}
+.iconfont-application:before {
+  content:"\e729";
+}
+.iconfont-qrcode:before {
+  content:"\e7dd";
+}
+.iconfont-ticket:before {
+  content:"\e816";
+}
+.iconfont-news:before {
+  content:"\e7e6";
+}
+.iconfont-form_fill:before {
+  content:"\e7ab";
+}
+.iconfont-profile_fill:before {
+  content:"\e77a";
+}
+.iconfont-safe:before {
+  content:"\e769";
+}
+.iconfont-friend_add_fill:before {
+  content:"\e6c9";
+}
+.iconfont-assemble:before {
+  content:"\e60f";
+}
+.iconfont-wx_pay:before {
+  content:"\e605";
+}
+.iconfont-fast_mail:before {
+  content:"\e690";
+}
+.iconfont-member:before {
+  content:"\e60b";
+}
+.iconfont-share:before {
+  content:"\e68d";
+}
+.iconfont-cashier:before {
+  content:"\e632";
+}
+.iconfont-seckill:before {
+  content:"\e60a";
+}
+.iconfont-money_collected:before {
+  content:"\e650";
+}
+.iconfont-group_buy:before {
+  content:"\e635";
+}
+.iconfont-customer:before {
+  content:"\e686";
+}
+.iconfont-advance_sale:before {
+  content:"\e668";
+}
+.iconfont-recharge:before {
+  content:"\e648";
+}

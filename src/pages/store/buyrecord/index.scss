@@ -1,0 +1,35 @@
+.item{
+  width: 650px;
+  height: 150px;
+  box-shadow: 0 5px 16px rgba(0,0,0,.07);
+  margin: 20px auto;
+  border-radius: 10px;
+  .item-left{
+    width: 140px;
+    border-right: 1px solid #ccc;
+  }
+  .item-right{
+    width: 510px;
+    height: 100%;
+    padding: 0 50px;
+    .item-right-top{
+      width: 100%;
+    }
+    .title{
+      font-size: 30px;
+      color: #333;
+    }
+    .price{
+      font-size: 24px;
+      color: #f5222d;
+    }
+    .time{
+      font-size: 24px;
+      color: #999;
+    }
+  }
+}
+.left-icon{
+  width: 100px;
+  height: 100px;
+}

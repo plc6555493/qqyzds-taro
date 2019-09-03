@@ -1,0 +1,44 @@
+.container {
+
+  .experience {
+    flex: 1;
+    padding-bottom: 90px;
+
+    .experience_one {
+      width: 100%;
+      height: 80px;
+      line-height: 80px;
+      font-size: 27px;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+      border-top: 1px solid rgba(0,0,0,0.05);
+      background: #ffffff;
+      margin-bottom: 20px;
+      color: #666666;
+    }
+
+    .experience_one_left {
+      width: 80px;
+      text-align: center;
+      float: left;
+    }
+
+    .experience_one_center {
+      width: 280px;
+      float: left;
+    }
+
+    .experience_one_right {
+      width: 300px;
+      float: left;
+      text-align: center;
+    }
+
+    .experience_one_del {
+      width: 80px;
+      font-size: 25px;
+      float: right;
+      color: #f5222d;
+      text-align: center;
+    }
+  }
+}

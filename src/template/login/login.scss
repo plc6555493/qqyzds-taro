@@ -1,0 +1,138 @@
+.user_getphone{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 300;
+}
+.user_getphone_mask{
+  position: absolute;
+  z-index: 301;
+  width: 100%;
+  height: 100%;
+  background: #111111;
+  opacity: 0.6;
+}
+.user_getphone_view{
+  width: 80%;
+  left: 10%;
+  top: 30%;
+  position: absolute;
+  z-index: 302;
+  min-height: 200px;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.user_getphone_view_title{
+  width: 100%;
+  text-align: center;
+  line-height: 3em;
+  font-size: 35px;
+  color: #333333;
+}
+.user_getphone_view_desc{
+  width: 100%;
+  text-align: center;
+  line-height: 2em;
+  font-size: 28px;
+  color: #666666;
+  padding-bottom: 30px;
+
+}
+.user_getphone_view_button{
+  border-radius: 0;
+  width: 50%;
+  float: left;
+  font-size: 28px;
+  background: #5bc0de;
+  color: #ffffff;
+}
+.user_getphone_view_all_tab{
+  width: 100%;
+
+  color: #666666;
+}
+.user_getphone_view_all_tab .tab_one{
+  text-align: center;
+  width: 50%;
+  float: left;
+  font-size: 28px;
+  line-height: 2.5em;
+}
+.tab_one_no_select{
+  box-shadow: 0 0 20px #bbbbbb inset;
+}
+.phone_one{
+  width: 90%;
+  margin: auto;
+  font-size: 28px;
+  line-height: 2.5em;
+  border-bottom: 2px solid #eeeeee;
+  color: #333333;
+}
+.phone_one_left{
+  width: 130px;
+  float: left;
+}
+.phone_one_right{
+  width: 380px;
+  float: right;
+}
+.phone_one_right input{
+  line-height: 2.5em;
+  height: 2.5em;
+}
+
+/* .user_getphone {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 300;
+}
+
+.user_getphone_mask {
+    position: absolute;
+    z-index: 301;
+    width: 100%;
+    height: 100%;
+    background: #111111;
+    opacity: 0.6;
+}
+
+.user_getphone_view {
+    width: 80%;
+    left: 10%;
+    top: 30%;
+    position: absolute;
+    z-index: 302;
+    min-height: 200rpx;
+    background: #ffffff;
+    border-radius: 10rpx;
+    overflow: hidden;
+}
+
+.user_getphone_view_title {
+    width: 100%;
+    text-align: center;
+    line-height: 3em;
+    font-size: 35rpx;
+    color: #333333;
+}
+
+.user_getphone_view_desc {
+    width: 100%;
+    text-align: center;
+    line-height: 2em;
+    font-size: 28rpx;
+    color: #666666;
+    padding-bottom: 30rpx;
+
+}
+
+.user_getphone_view_button {
+    border-radius: 0;
+} */

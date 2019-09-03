@@ -1,0 +1,165 @@
+@import "../../template/login/login.scss";
+
+page {
+    background: #f1f1f1;
+}
+
+.try_noaccount {
+    border: 2px solid #cccccc;
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 650px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.try_title {
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    line-height: 3em;
+    font-size: 35px;
+    background-color: #E9F3FF;
+}
+
+.try_body {
+    width: 100%;
+}
+
+.try_body_button {
+    width: 250px;
+    text-align: center;
+    background-color: #3091F2;
+    color: #ffffff;
+    margin: 70px auto;
+
+    line-height: 2em;
+    border-radius: 10px;
+    font-size: 35px;
+
+}
+
+.buy_tab {
+    width: 100%;
+    padding: 10px 0;
+    background: #ffffff;
+    margin-top: 20px;
+    border-top: 2px solid #e9e9e9;
+    border-bottom: 2px solid #e9e9e9;
+}
+
+.buy_tab_one {
+    width: 650px;
+    height: 80px;
+    padding: 0px 25px;
+    line-height: 80px;
+    font-size: 28px;
+    color: #666666;
+    margin: auto;
+    position: relative;
+}
+
+.buy_tab_one_left {
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+
+.buy_tab_one_right {
+    float: right;
+    text-align: right;
+    width: 300px;
+    height: 100%;
+    font-size: 28px;
+    color: #999999;
+    padding-right: 20px;
+}
+
+.buy_tab_one {
+    border-bottom: 2px solid #e9e9e9;
+}
+
+.buy_tab_one_right_turn {
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    height: 30px;
+    width: 30px;
+}
+
+.change_mask {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    opacity: 0.6;
+    z-index: 5;
+}
+
+.copy_info {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    z-index: 10;
+    left: 0px;
+    top: 20vh;
+}
+
+.copy_info_div {
+    width: 80%;
+    margin: auto;
+    word-wrap: break-word;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.copy_button {
+    width: 80%;
+    margin: auto;
+    color: #ffffff;
+    font-size: 35px;
+    height: 2em;
+    line-height: 2em;
+}
+
+.tip_title, .tip_desc {
+    width: 80%;
+    margin: auto;
+    color: #eeeeee;
+    font-size: 30px;
+    line-height: 1.5em;
+
+}
+
+.industry_page {
+    width: 500px;
+    position: fixed;
+    z-index: 20;
+    left: 125px;
+    top: 40vh;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+.industry_page_title {
+    width: 90%;
+    color: #333333;
+    font-size: 28px;
+    margin: 30px auto;
+}
+
+.industry_picker {
+    width: 90%;
+    margin: auto;
+    font-size: 28px;
+    line-height: 2em;
+}
+
+.submit_industry_one {
+    width: 100%;
+    font-size: 28px;
+    margin-top: 20px;
+}

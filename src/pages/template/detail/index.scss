@@ -1,0 +1,37 @@
+.container {
+  .swiper_container {
+    flex: 1;
+    //padding: 90px 0;
+    .img-out{
+      height: 100%;
+      //overflow: scroll;
+      //-webkit-overflow-scrolling: touch
+    }
+    .img{
+      width: 100%;
+    }
+  }
+
+
+  //._swiper {
+  //  height: 100%;
+  //}
+}
+
+.fixed-bar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  border-top: 1px solid #f2f2f2;
+  .left{
+    font-size: 30px;
+  }
+  .right{
+    background-color: #FC7A29;
+    color: #fff;
+  }
+}

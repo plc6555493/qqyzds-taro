@@ -1,0 +1,53 @@
+.container {
+  background-color: #fff;
+
+  .header {
+    padding: 20px;
+    font-size: 26px;
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+    }
+
+    .info {
+      margin: 0 20px;
+      line-height: 50px;
+    }
+
+    .record {
+      padding: 20px;
+      color: #f5222d;
+      font-size: 26px;
+    }
+  }
+
+  .menus {
+    .menu_title {
+      font-size: 28px;
+      color: #333;
+      padding: 20px;
+      border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+
+    .menu_item {
+      width: 33.3%;
+      padding: 20px 0;
+
+      .at-tag {
+        min-width: 160px;
+      }
+    }
+  }
+
+  .recharge {
+    background-color: #f5222d;
+    margin-top: 40px;
+    width: 70%;
+  }
+}
+
+.at-tag--active.at-tag--primary {
+  border-color: #f5222d;
+  background-color: #f5222d;
+}

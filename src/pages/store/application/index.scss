@@ -1,0 +1,43 @@
+.index{
+  position: relative;
+}
+.back{
+  width: 750px;
+  min-height: 1334px;
+  background-color: #fff;
+  z-index: 9;
+}
+.list{
+  z-index: 99;
+  border-bottom: 1px solid #ccc;
+  width: 750px;
+  padding: 10px 0;
+  .pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  .txt{
+    .name{
+
+    }
+    .time{
+      font-size: 24px;
+      color: #666;
+      .time-color{
+        color: #f5222d;
+      }
+    }
+  }
+  .switch{
+    position: static;
+  }
+}
+.list:nth-last-of-type(1){
+  margin-bottom: 200px;
+  //background-color: red;
+}
+
+.add-app{
+
+}

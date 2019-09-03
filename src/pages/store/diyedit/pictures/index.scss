@@ -1,0 +1,36 @@
+.list{
+  position: relative;
+  width: 700px;
+  padding: 10px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  .img-border{
+    border: 1px solid #ccc;
+    .img{
+      width: 180px;
+      height: 180px;
+    }
+  }
+  .all-item{
+    width: 70%;
+    .item{
+      width: 100%;
+      margin-bottom: 10px;
+      Input{
+        width: 60%;
+        border: 1px solid #ccc;
+      }
+      .change-img{
+        margin: 0;
+        margin-left: 5px;
+        padding: 0 10px;
+        line-height: 2.1;
+        font-size: 26px;
+        color: #fff;
+        background-color: #f5222d;
+      }
+    }
+  }
+
+}

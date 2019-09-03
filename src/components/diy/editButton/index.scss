@@ -1,0 +1,14 @@
+.edit__btn_parent {
+  position: relative;
+}
+
+.edit__btn {
+  position: absolute;
+  padding: 5rpx 20rpx;
+  color: white;
+  background-color: #f5222d;
+  top: 2rpx;
+  right: 2rpx;
+  z-index: 1000;
+  font-size: 28rpx;
+}

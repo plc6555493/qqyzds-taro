@@ -1,0 +1,178 @@
+/* pages/store/addClass/index.wxss */
+page {
+    background: #f1f1f1;
+}
+
+.store_one {
+    width: 700px;
+    margin: 0px auto;
+    border-bottom: 2px solid #eeeeee;
+    font-size: 30px;
+    color: #333333;
+    line-height: 3em;
+}
+
+.store_left {
+    width: 200px;
+    float: left;
+}
+.store_left_whole{
+    width: 100%;
+    float: left;
+}
+
+.store_right {
+    width: 490px;
+    float: right;
+    text-align: left;
+    min-height: 3em;
+    font-size: 25px;
+}
+
+.store_right input {
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    text-align: right;
+}
+
+.store_left_upload_item {
+    width: 100%;
+}
+
+.store_right_upload_item {
+    width: 490px;
+    float: right;
+    text-align: right;
+    min-height: 3em;
+    font-size: 25px;
+}
+
+.store_right_upload_item input {
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    text-align: right;
+}
+
+.store_edit_info {
+    width: 100%;
+    background: #ffffff;
+    margin-top: 20px;
+}
+
+.submit_button {
+    width: 600px;
+    position: fixed;
+    left: 75px;
+    bottom: 30px;
+}
+
+.submit_button button {
+    background: #e9463d;
+    color: #ffffff;
+    font-size: 35px;
+    margin:1%;
+}
+.radio{
+    float: left;
+}
+.exter_name_all{
+    width: 80%;
+    text-align:left;
+}
+.exter_name{
+    width: 400px;
+    text-align:left;
+    float:left;
+}
+.exter_url{
+    color:goldenrod;
+    position:absolute;
+    right:0px;
+    width:360px;
+}
+.tips_info{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    z-index: 10;
+    left: 0px;
+    top: 0;
+    background:#111111;
+    opacity:0.8;
+}
+.tips_info_bottom{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    z-index: 10;
+    left: 0px;
+    bottom: 15%;
+    background: #ffffff;
+    opacity:0.8;
+
+}
+.tip_title_bottom, .tip_desc_bottom {
+    width: 80%;
+    margin: auto;
+    color: #000000;
+    font-size: 30px;
+    line-height: 1.5em;
+    padding: 10px;
+}
+.tip_title_main{
+    font-size: 40px;
+}
+
+.tips_close{
+    position:absolute;
+    right:2%;
+}
+.tip_title, .tip_desc {
+    width: 80%;
+    margin: auto;
+    color: #eeeeee;
+    font-size: 30px;
+    line-height: 1.5em;
+    padding: 10px;
+}
+.choose_tips{
+    color: #9a9a9a;
+}
+.store_left_upload{
+    height: 75px;
+    font-size: 25px;
+    position: relative;
+    float: right;
+}
+.final_media{
+    width: 30px;
+    height: 30px;
+}
+.picker_to_upload{
+    text-align:right;
+    margin-right:20px;
+    float:right;
+}
+.picker_turn {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 30px;
+}
+
+.add_toggle_cancel{
+    float:left;
+    width:50%;
+    background:#6e6e6e6e !important;
+}
+.service_name{
+    font-size: 24px;
+}
+.service_status{
+    float: right;
+}

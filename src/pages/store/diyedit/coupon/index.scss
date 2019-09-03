@@ -1,0 +1,13 @@
+.list{
+  width: 700px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  View{
+    width: 90%;
+    margin: 10px 0;
+    .txt{
+      width: 400px;
+      border: 1px solid #ccc;
+    }
+  }
+}

@@ -1,0 +1,386 @@
+@import "~taro-ui/dist/style/index.scss";
+@import "./assets/fonts/icons.scss";
+@import "./diy.scss";
+
+/**app.wxss**/
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 30%;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.center image {
+    display: inline-block;
+}
+
+.loadding {
+    width: 100%;
+    height: 20em;
+    text-align: center;
+    line-height: 20em;
+    color: #666;
+    font-size: 30px;
+}
+
+.red {
+    color: red;
+}
+
+.pull_right {
+    float: right;
+}
+
+.pull_left {
+    float: left;
+}
+
+.clear_fix {
+    clear: both;
+}
+
+.w3 {
+    width: 30%;
+}
+
+.w29 {
+    width: 29%;
+}
+
+.w4 {
+    width: 40%;
+}
+
+.w5 {
+    width: 50%;
+}
+
+.w6 {
+    width: 60%;
+}
+
+.w7 {
+    width: 70%;
+}
+
+.w71 {
+    width: 71%;
+}
+
+.disabled {
+    border: 2px solid #DDD;
+    background-color: #F5F5F5 !important;
+    color: #ACA899 !important;
+}
+
+.button {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.nowrap_ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.ellipsis {
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+}
+.nowrap{
+    white-space: nowrap;
+}
+.picker_turn{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+/*隐藏滚动条*/
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+.yellowgreen{
+    color: yellowgreen;
+}
+
+.grey{
+    color: grey;
+}
+.chartreuse{
+    color: chartreuse;
+}
+
+/****全局css***/
+page {
+    height: 100%;
+    font-size: 28px;
+    color: #333333;
+    background-color: #f2f2f2;
+}
+
+.container {
+    height: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll_view {
+    padding-bottom: 90px;
+}
+
+.paper {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    font-size: 28px;
+    color: #333;
+
+    .paper_item {
+        padding: 20px 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 28px;
+        color: #333;
+        white-space: normal;
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+
+        input {
+            flex: 1;
+            font-size: 28px;
+            color: #333;
+            text-align: right;
+            height: 40px;
+            min-height: 40px;
+        }
+
+        .picker {
+            flex: 1;
+            display: flex;
+            align-items: center;
+
+            text {
+                font-size: 28px;
+                color: #333;
+            }
+        }
+    }
+
+    .no_bottom_line {
+        border-bottom: 0;
+    }
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 12px;
+
+    .card_item {
+        padding: 20px;
+    }
+
+    .card_item__line {
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+}
+
+.diy_edit {
+    border: #f5222d dashed 4px;
+    margin-top: 10px;
+}
+
+.bottom_button {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 90px;
+    border: 0;
+    z-index: 99;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    background-color: #f5222d;
+    color: #ffffff;
+}
+
+.save{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+/********************************************************************************************/
+
+/*字体*/
+/*字阶与行高*/
+.typo_h0 {//仅用于数字
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.typo_h1 {//大模块标题
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.typo_h2 {//常规标题
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.typo_h3 {//正文
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.typo_h4 {//内容
+    font-size: 26px;
+    line-height: 40px;
+}
+
+.typo_h5 {//辅助信息、注释
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.typo_h6 {//标签
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*字重*/
+.typo_regular {
+    font-weight: 400;
+}
+
+.typo_medium {
+    font-weight: 500;
+}
+
+.typo_semibold {
+    font-weight: 600;
+}
+
+/*字体颜色*/
+.typo_primary_color {
+    color: #333;
+}
+
+.typo_secondary_color {
+    color: #666;
+}
+
+.typo_third_color {
+    color: #999;
+}
+
+/*字体行数限制*/
+.typo_line_clamp_1 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.typo_line_clamp_2 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+/********************************************************************************************/
+
+/*颜色*/
+.color {
+    .main {
+        .background {
+            background-color: #f5222d;
+        }
+        .color {
+            color: #f5222d;
+        }
+    }
+}
+/********************************************************************************************/
+
+/*taro-ui css*/
+.at-row {
+    width: auto;
+}
+
+.at-col {
+    white-space: inherit;
+    display: flex;
+}
+
+.at-icon {
+    display: flex;
+}
+
+.at-button {
+    border: 0;
+    display: flex;
+    background-color: #f5222d;
+    color: #fff;
+}
+
+.at-input {
+    padding: 14px 0;
+    font-size: 28px;
+    margin-left: 24px;
+
+    input {
+        font-size: 28px;
+        padding-right: 24px;
+    }
+}
+
+.at-input__title {
+    width: 70px;
+    font-size:28px;
+}
+
+.at-divider {
+    height: 1px;
+}
+
+.at-divider__line {
+    height: 1px;
+    background-color: rgba(0,0,0,0.05);
+}
+
+.at-noticebar {
+    color: #ff7875;
+    background: #ffccc7;
+}
+
+.at-tabs--scroll .at-tabs__header{
+    //position: fixed;
+    //top: 0;
+    //left: 0;
+    //z-index: 999;
+    //border-bottom: 1px solid #f2f2f2;
+}
+
+/********************************************************************************************/

@@ -1,0 +1,35 @@
+.block{
+  border: 1px solid rgba(0,0,0,.09);
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.item {
+  margin: 0 30px;
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: #333;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.item .item_left {
+  font-size: 28px;
+  margin-right: 20px;
+}
+
+.item .item_right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  font-size: 28px;
+  color: #666;
+  text-align: right;
+}
+.arrow_right {
+  height: 28px;
+  width: 28px;
+  margin-left: 20px;
+}

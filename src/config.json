@@ -1,0 +1,685 @@
+{
+  "homeData": {
+    "top_bg": "https://upload.258m.com/wx_min/album/05978405538591821.png?v=1",
+    "top_swiper_img": [
+      "http://qiniu.258m.com/top_swiper1.png",
+      "http://qiniu.258m.com/top_swiper2.png",
+      "http://qiniu.258m.com/top_swiper3.png"
+    ],
+    "introduce": {
+      "title": "百种行业  百种营销",
+      "sub_title": "国内唯一 全手机端操作 3分钟开店 10分钟营业",
+      "tabs": [
+        {
+          "title": "新零售",
+          "dec": "",
+          "menus": [
+            {
+              "id": 1001,
+              "type": "applet_template",
+              "title": "电商小程序",
+              "subTitle": "快速可视化搭建独立平台",
+              "image": "http://qiniu.258m.com/_ds.png",
+              "icon": "",
+              "images": [
+                {"imgurl": "http://qiniu.258m.com/DS1+.png"},
+                {"imgurl": "http://qiniu.258m.com/DS2+.png"},
+                {"imgurl": "http://qiniu.258m.com/DS3+.png"}
+              ]
+            },
+            {
+              "id": 1002,
+              "type": "applet_template",
+              "title": "门店小程序",
+              "subTitle": "助力商家智慧经营",
+              "image": "http://qiniu.258m.com/_md.png",
+              "icon": "",
+              "childMenus": [
+                {
+                  "id": 2201,
+                  "title": "小商品",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/XSP.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/XSP1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/XSP2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/XSP3+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2202,
+                  "title": "鲜花礼品",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/XHD.png",
+                  "icon": "",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/XHD1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/XHD2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/XHD3+.png"}
+                  ]
+                },
+                {
+                  "id": 2203,
+                  "title": "水果生鲜",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/SGD.png",
+                  "icon": "",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/SGD1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/SGD2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/SGD3+.png"}
+                  ]
+                },
+                {
+                  "id": 2204,
+                  "title": "服装饰品",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/FZD.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/FZD1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/FZD2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/FZD3+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2205,
+                  "title": "茶品行业",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/CPHY.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/CP1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/CP2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/CP3+.png"}
+
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2206,
+                  "title": "小卖部",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/XMB.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/XMB1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/XMB2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/XMB3+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2207,
+                  "title": "宠物店",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/CWD.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/CWD1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/CWD2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/CWD3+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2208,
+                  "title": "洗衣店",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/XYD.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/XYD1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/XYD2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/XYD3+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2209,
+                  "title": "足疗按摩",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/ZLAM.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/ZLAM1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/ZLAM2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/ZLAM3+.png"},
+                    {"imgurl": "http://qiniu.258m.com/ZLAM4+.png"},
+                    {"imgurl": "http://qiniu.258m.com/ZLAM5+.png"},
+                    {"imgurl": "http://qiniu.258m.com/ZLAM6+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2210,
+                  "title": "民宿旅店",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/MS.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/MS1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/MS2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/MS3+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2211,
+                  "title": "桑拿洗浴",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/XYZX.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/XYZX1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/XYZX2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/XYZX3+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2212,
+                  "title": "健生会所",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/JSHS.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/JSHS1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/JSHS2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/JSHS3+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2213,
+                  "title": "眼镜店",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/YJD.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/YJD1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/YJD2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/YJD3+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2214,
+                  "title": "数码行业",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/SMD.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/SM1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/SM2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/SM3+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2215,
+                  "title": "母婴店",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/MYD.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/MY1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/MY2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/MY3+.png"}
+                  ],
+                  "icon": ""
+                }
+              ]
+            },
+            {
+              "id": 1003,
+              "type": "applet_template",
+              "title": "美业小程序",
+              "subTitle": "",
+              "image": "http://qiniu.258m.com/_my.png",
+              "icon": "",
+              "childMenus": [
+                {
+                  "id": 2301,
+                  "title": "美容院",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/MRD.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/MRD1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/MRD2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/MRD3+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2302,
+                  "title": "美发店",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/MFD.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/MFD1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/MFD2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/MFD3+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2303,
+                  "title": "美甲店",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/MJD.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/MJD1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/MJD2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/MJD3+.png"}
+                  ],
+                  "icon": ""
+                }
+              ]
+            },
+            {
+              "id": 1004,
+              "type": "applet_template",
+              "title": "餐饮外卖小程序",
+              "subTitle": "堂食外卖预定 随心随用",
+              "image": "http://qiniu.258m.com/_cy.png",
+              "icon": "",
+              "childMenus":[
+                {
+                  "id": 2401,
+                  "title": "小吃店",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/XCD.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/XCD1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/XCD2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/XCD3+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2402,
+                  "title": "奶茶饮品",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/NCYP.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/NCD1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/NCD2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/NCD3+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2403,
+                  "title": "蛋糕糕点",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/GDD.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/GDD1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/GDD2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/GDD3+.png"}
+                  ],
+                  "icon": ""
+                }
+              ]
+            },
+            {
+              "id": 1005,
+              "type": "applet_template",
+              "title": "企业展示小程序",
+              "subTitle": "",
+              "image": "http://qiniu.258m.com/_qygw.png",
+              "images": [
+                {"imgurl": "http://qiniu.258m.com/QY1+.png"},
+                {"imgurl": "http://qiniu.258m.com/QY2+.png"},
+                {"imgurl": "http://qiniu.258m.com/QY3+.png"}
+              ],
+              "icon": ""
+            },
+            {
+              "id": 1006,
+              "type": "applet_template",
+              "title": "医药小程序",
+              "subTitle": "有效提升就诊效率 促进医患和谐",
+              "image": "http://qiniu.258m.com/_yy.png",
+              "icon": "",
+              "childMenus": [
+                {
+                  "id": 2601,
+                  "title": "药店",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/YD.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/YD1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/YD2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/YD3+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2602,
+                  "title": "医院",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/YY.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/YY1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/YY2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/YY3+.png"}
+                  ],
+                  "icon": ""
+                }
+              ]
+            },
+            {
+              "id": 1007,
+              "type": "applet_template",
+              "title": "酒店小程序",
+              "subTitle": "",
+              "image": "http://qiniu.258m.com/_jd.png",
+              "images": [
+                {"imgurl": "http://qiniu.258m.com/JD1+.png"},
+                {"imgurl": "http://qiniu.258m.com/JD2+.png"},
+                {"imgurl": "http://qiniu.258m.com/JD3+.png"}
+              ],
+              "icon": ""
+            },
+            {
+              "id": 1008,
+              "type": "applet_template",
+              "title": "教育小程序",
+              "subTitle": "建立全新的显示教学体系",
+              "image": "http://qiniu.258m.com/_jy.png",
+              "icon": "",
+              "childMenus": [
+                {
+                  "id": 2801,
+                  "title": "中介家教",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/JY.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/ZJJJ1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/ZJJJ2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/ZJJJ3+.png"}
+                  ],
+                  "icon": ""
+                },
+                {
+                  "id": 2802,
+                  "title": "校园展示",
+                  "subTitle": "",
+                  "image": "http://qiniu.258m.com/XYZS1.png",
+                  "images": [
+                    {"imgurl": "http://qiniu.258m.com/XX1+.png"},
+                    {"imgurl": "http://qiniu.258m.com/XX2+.png"},
+                    {"imgurl": "http://qiniu.258m.com/XX3+.png"}
+                  ],
+                  "icon": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "公司小程序",
+          "dec": "",
+          "menus": [
+            {
+              "title": "智能客服助手",
+              "subTitle": "实时聊天，及时通知",
+              "image": "http://qiniu.258m.com/znkfzs.jpg",
+              "icon": ""
+            },
+            {
+              "title": "万能表单",
+              "subTitle": "信息建议收集，服务预约",
+              "image": "http://qiniu.258m.com/wnbd.jpg",
+              "icon": ""
+            },
+            {
+              "title": "弹屏广告",
+              "subTitle": "展示商家活动，利于品牌宣传",
+              "image": "http://qiniu.258m.com/tpgg.jpg",
+              "icon": ""
+            },
+            {
+              "title": "官网单页",
+              "subTitle": "展示企业实力，服务内容",
+              "image": "http://qiniu.258m.com/gwdy.jpg",
+              "icon": ""
+            },
+            {
+              "title": "WiFi一键连",
+              "subTitle": "获取解锁附近wifi，操作简单",
+              "image": "http://qiniu.258m.com/wifi.jpg",
+              "icon": ""
+            },
+            {
+              "title": "发票助手",
+              "subTitle": "一键开票，简化流程，节省人力",
+              "image": "http://qiniu.258m.com/fpzs.jpg",
+              "icon": ""
+            },
+            {
+              "title": "自定义菜单",
+              "subTitle": "自由选择，打造不同UI风格",
+              "image": "http://qiniu.258m.com/zdycd.jpg",
+              "icon": ""
+            },
+            {
+              "title": "可视化编辑",
+              "subTitle": "多组件拖拽自定义装修风格",
+              "image": "http://qiniu.258m.com/kshbj.jpg",
+              "icon": ""
+            },
+            {
+              "title": "统计分析",
+              "subTitle": "多维度，精细化的统计分析",
+              "image": "http://qiniu.258m.com/tjfx.jpg",
+              "icon": ""
+            },
+            {
+              "title": "公众号关注组件",
+              "subTitle": "快捷关注，打造流量闭环",
+              "image": "http://qiniu.258m.com/gzhgzzj.jpg",
+              "icon": ""
+            },
+            {
+              "title": "小程序分身",
+              "subTitle": "复制分裂多个，实现矩阵推广+",
+              "image": "http://qiniu.258m.com/xcxfs.jpg",
+              "icon": ""
+            },
+            {
+              "title": "网页跳转",
+              "subTitle": "链接官网H5等，增加流量通道",
+              "image": "http://qiniu.258m.com/wytz.jpg",
+              "icon": ""
+            },
+            {
+              "title": "圈子动态",
+              "subTitle": "发布动态互动，打造社交圈",
+              "image": "http://qiniu.258m.com/qzdt.jpg",
+              "icon": ""
+            }
+          ]
+        },
+        {
+          "title": "大数据管理",
+          "dec": "",
+          "menus": [
+            {
+              "title": "投票",
+              "subTitle": "快捷简单创建实时投票",
+              "image": "http://qiniu.258m.com/tp.jpg",
+              "icon": ""
+            },
+            {
+              "title": "集卡",
+              "subTitle": "趣味互动引流，增加用户粘性",
+              "image": "http://qiniu.258m.com/jk.jpg",
+              "icon": ""
+            },
+            {
+              "title": "积分商城",
+              "subTitle": "搭建专属积分体系",
+              "image": "http://qiniu.258m.com/jfsc.jpg",
+              "icon": ""
+            },
+            {
+              "title": "砍价",
+              "subTitle": "互动实现品牌传播、拓客引流",
+              "image": "http://qiniu.258m.com/kj.jpg",
+              "icon": ""
+            },
+            {
+              "title": "我的会员卡",
+              "subTitle": "方便数据管理与顾客沉淀",
+              "image": "http://qiniu.258m.com/wdhyk.jpg",
+              "icon": ""
+            },
+            {
+              "title": "积分签到",
+              "subTitle": "签到获取积分，进行兑换抵扣",
+              "image": "http://qiniu.258m.com/jfqd.jpg",
+              "icon": ""
+            },
+            {
+              "title": "十秒挑战",
+              "subTitle": "激发挑战心理，增加客户流量",
+              "image": "http://qiniu.258m.com/smtz.jpg",
+              "icon": ""
+            },
+            {
+              "title": "好友助力",
+              "subTitle": "快速吸粉神器，玩法简单有趣",
+              "image": "http://qiniu.258m.com/hyzl.jpg",
+              "icon": ""
+            },
+            {
+              "title": "社交立减金",
+              "subTitle": "社交裂变，获客快，成本低",
+              "image": "http://qiniu.258m.com/sjljj.jpg",
+              "icon": ""
+            },
+            {
+              "title": "模板消息",
+              "subTitle": "精准推送，促进用户活跃度",
+              "image": "http://qiniu.258m.com/mbxx.jpg",
+              "icon": ""
+            },
+            {
+              "title": "短信群发",
+              "subTitle": "用户收到的运营营销短信",
+              "image": "http://qiniu.258m.com/dxqf.jpg",
+              "icon": ""
+            },
+            {
+              "title": "智能名片",
+              "subTitle": "裂变式传播，及时在线沟通",
+              "image": "http://qiniu.258m.com/znmp.jpg",
+              "icon": ""
+            },
+            {
+              "title": "朋友圈海报",
+              "subTitle": "早晚安，行业海报营销素材",
+              "image": "http://qiniu.258m.com/pyqhb.jpg",
+              "icon": ""
+            },
+            {
+              "title": "引流系统",
+              "subTitle": "通过派券策略引流拓客",
+              "image": "http://qiniu.258m.com/ylxt.jpg",
+              "icon": ""
+            },
+            {
+              "title": "大转盘",
+              "subTitle": "幸运大转盘，抽奖乐翻天",
+              "image": "http://qiniu.258m.com/dzp.jpg",
+              "icon": ""
+            },
+            {
+              "title": "模板消息",
+              "subTitle": "精准推送，促进用户活跃度",
+              "image": "http://qiniu.258m.com/mbxx.jpg",
+              "icon": ""
+            },
+            {
+              "title": "翻纸牌",
+              "subTitle": "洗牌翻拍翻大奖",
+              "image": "http://qiniu.258m.com/fzp.jpg",
+              "icon": ""
+            },
+            {
+              "title": "砸金蛋",
+              "subTitle": "烘托氛围，提高参与度",
+              "image": "http://qiniu.258m.com/zjd.jpg",
+              "icon": ""
+            },
+            {
+              "title": "九宫格",
+              "subTitle": "益智有趣，更有吸引力",
+              "image": "http://qiniu.258m.com/jgg.jpg",
+              "icon": ""
+            },
+            {
+              "title": "刮刮卡",
+              "subTitle": "娱乐性强，趣味性高",
+              "image": "http://qiniu.258m.com/ggk.jpg",
+              "icon": ""
+            },
+            {
+              "title": "摇一摇",
+              "subTitle": "操作简单，活动活跃气氛",
+              "image": "http://qiniu.258m.com/yyy.jpg",
+              "icon": ""
+            },
+            {
+              "title": "老虎机",
+              "subTitle": "全新娱乐体验，吸引用户",
+              "image": "http://qiniu.258m.com/lhj.jpg",
+              "icon": ""
+            },
+            {
+              "title": "步数宝",
+              "subTitle": "运动步数累计兑换奖励",
+              "image": "http://qiniu.258m.com/bsb.jpg",
+              "icon": ""
+            }
+          ]
+        }
+      ]
+    },
+    "our_advantage": {
+      "title": "新商业 新三步",
+      "list": [
+        {
+          "title": "市场前景广阔"
+        },
+        {
+          "title": "技术实力雄厚"
+        },
+        {
+          "title": "行业覆盖广泛"
+        },
+        {
+          "title": "产品竞争力大"
+        },
+        {
+          "title": "行业品牌度高"
+        },
+        {
+          "title": "扶持体系完善"
+        }
+      ]
+    },
+    "success_case": {
+      "title": "成功案例",
+      "list": [
+        {
+          "pic": "https://upload.258m.com/wx_min/album/05978539562757790.png"
+        },
+        {
+          "pic": "https://upload.258m.com/wx_min/album/05978540169331354.png"
+        },
+        {
+          "pic": "https://upload.258m.com/wx_min/album/05978540342893258.png"
+        }
+      ]
+    },
+    "footer": {
+      "company": "Copyright ©常州世界之窗网络科技有限公司",
+      "address": "江苏省常州市钟楼区金谷大厦7楼",
+      "phone": "13961450211"
+    }
+  }
+}

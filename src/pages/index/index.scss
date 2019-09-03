@@ -1,0 +1,231 @@
+.container1{
+  background-color: #fff;
+  .top{
+    width: 100%;
+    height: 380px;
+    .top-item{
+      .headPic{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .introduce{
+    .introduce_title{
+      font-size: 30px;
+      font-weight: bold;
+      color: #333;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .introduce_sub_title{
+      font-size: 24px;
+      color: #333;
+      text-align: center;
+    }
+    .tabs{
+      .tabs_title{
+        width: 90%;
+        margin: 20px auto;
+        .tabs_title_tag{
+          width: 30%;
+          padding: 10px 0;
+          font-size: 30px;
+          color:#666;
+          border-radius: 8px;
+          text-align: center;
+          margin: 10px;
+        }
+
+        .selected {
+          background-color: #f5222d;
+          color: #ffffff;
+        }
+
+        .unSelected {
+          background-color: #eeeeee;
+          color: #666666;
+        }
+      }
+      .tabs_menus{
+        .tabs_menus_child{
+          margin: 20px auto;
+          width: 94%;
+          .tabs_pic{
+            width: 46%;
+            height: 240px;
+            background-size: 100% 100%;
+            border-radius: 12px;
+            margin:2%;
+            box-sizing: border-box;
+            border: 1px solid #aaa;
+            color: #fff;
+            .txt-bg{
+              width: 100%;
+              height: 100%;
+              background-color: rgba(0,0,0,.2);
+              border-radius: 12px;
+              Text:nth-child(1){
+                font-size: 30px;
+                font-weight: bold;
+                line-height: 50px;
+              }
+              Text:nth-child(2){
+                font-size: 22px;
+                text-align: center;
+              }
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+  .block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .new-pay{
+      width: 100%;
+        .pay-type{
+          width: 100%;
+          padding: 0 20px;
+      }
+    }
+    .main-pic{
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  .arrow{
+    width: 35px;
+    height: 45px;
+    margin: 30px 0 20px 0;
+  }
+  .success_case{
+    margin-top: 50px;
+    text-align: center;
+    Text{
+      font-size: 28px;
+      font-weight: bold;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    .success_case_pic{
+      flex: 1;
+      width: 200px;
+      height: 400px;
+      margin: 0 10px 20px 10px;
+    }
+  }
+  .footer{
+    width: 100%;
+    height: 150px;
+    padding: 30px 0;
+    box-sizing: border-box;
+    background-color: #000;
+    font-size: 24px;
+    color: #fff;
+    .footer_top{
+      margin-bottom: 10px;
+      width: 95%;
+    }
+  }
+}
+.line{
+  width: 94%;
+  height: 10px;
+  //background-color: yellow;
+  border-bottom: 1px solid #f5222d;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.index-atAvatar{
+  position: fixed;
+  top: 20rpx;
+  right: 20rpx;
+  border-radius: 50%;
+  box-shadow: 0 4rpx 12rpx rgba(0,0,0,.2);
+  z-index: 999;
+}
+.underline-title{
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  //border-bottom: 2px solid #f5222d;
+}
+.company-introduce{
+  width: 100%;
+  height: 320px;
+  margin-top: 50px;
+  position: relative;
+  .ellipse{
+    width: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+  }
+  .article{
+    width: 730px;
+    height: 270px;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    //background-color: #c1f9fe;
+    .title{
+      font-size: 30px;
+    }
+    .context{
+      font-size: 20px;
+      .circle-img{
+        margin-right: 5px;
+      }
+      .circle{
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+.company-information{
+  width: 100%;
+  height: 270px;
+  font-size: 20px;
+  color: #fff;
+  background-image: url("http://qiniu.258m.com/company-bg.png");
+  background-color: red;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  margin-top: 10px;
+  .company-information-top{
+    width: 100%;
+    .top-left{
+      width: 40%;
+      .top-img{
+        width: 140px;
+        height: 140px;
+      }
+    }
+    .top-right{
+      width: 50%;
+      height: 140px;
+    }
+  }
+  .company-information-bottom{
+    width: 100%;
+    height: 100px;
+    .bottom-img{
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.container {
+  .scroll_view {
+    padding-bottom: 40rpx;
+  }
+
+  .bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 90rpx;
+    width: 100%;
+    z-index: 99;
+    background-color: #fff;
+
+    .add {
+      background-color: #a0d911;
+    }
+  }
+}
+
+.at-image-picker__item {
+  top: 0;
+  transform: translateY(0);
+}
+
+.at-image-picker__flex-item::after {
+  content: '';
+  display: block;
+  padding-bottom: 50%;
+}
+
+.at-col {
+  display: block;
+}

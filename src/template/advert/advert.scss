@@ -1,0 +1,32 @@
+.mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.advert_container {
+  background-color: #fff;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.advert_container image {
+  max-width: 600px;
+  display: flex;
+}
+
+.advert_container .close {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 30px;
+  top: 30px;
+}

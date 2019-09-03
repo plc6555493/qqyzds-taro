@@ -1,0 +1,76 @@
+.mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+    position: fixed;
+    z-index: 99;
+}
+.drawer{
+    width: 100%;
+    background-color: #fff;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    animation: move infinite 150ms linear;
+    animation-iteration-count:1;
+}
+@keyframes move {
+    from{
+        bottom: -500px;
+    }
+    to{
+        bottom: 0;
+    }
+}
+
+.head{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 5px solid #f5222d;
+}
+.body{
+    font-size: 26px;
+    .view{
+        padding: 20px;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        Text:nth-child(1){
+            //width: 60%;
+        }
+        Text:nth-child(2){
+            //width: 20%;
+            color: #f5222d;
+        }
+        Button{
+            font-size: 24px;
+            height: 40px;
+            line-height: 40px;
+            color: #fff;
+            background-color: #f5222d;
+            border-radius: 20px;
+            margin-left: 20rpx;
+        }
+    }
+    View:last-child{
+        border-bottom: 0;
+    }
+
+}
+.foot{
+    View{
+        font-size: 22px;
+        text-align: center;
+        padding: 35px 0;
+        background-color: #fada86;
+        color: #f5222d;
+    }
+    Button{
+        color: #f5222d;
+        font-size: 30px;
+    }
+}
